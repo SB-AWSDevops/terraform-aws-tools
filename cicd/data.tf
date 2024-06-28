@@ -26,7 +26,7 @@ data "aws_ami" "nexus_ami_info" {
 
     filter {
         name   = "name"
-        values = ["SolveDevOps-Nexus-Server-Ubuntu20.04-20240511-*"]
+        values = ["kurian-nexus-repo-3.49.0-20230317-rhel-7-d5b02695-*"]
     }
 
     filter {
